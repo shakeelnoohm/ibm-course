@@ -1,8 +1,8 @@
 const taskInput = document.getElementById("taskInput");
-
 const addTaskBtn = document.getElementById("addTaskBtn");
 const taskList = document.getElementById("taskList");
 const clearCompletedBtn = document.getElementById("clearCompletedBtn");
+const clearAllBtn = document.getElementById("clearAllBtn");
 
 let tasks = [];
 function addTask() {
